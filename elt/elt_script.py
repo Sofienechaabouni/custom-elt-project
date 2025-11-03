@@ -48,7 +48,7 @@ destination_config = {
 
 # Use pg_dump to dump the source database to an SQL file which is data_dump.sql
 dump_command = [
-    'pg_dump',
+    'pg_dump-18',
     '-h', source_config['host'],
     '-U', source_config['user'],
     '-d', source_config['dbname'],
